@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/features",
+@CucumberOptions(features="src/test/resources/features/User.feature",
  glue= {"api.stepdefinitions"},
  plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 			"pretty","html:target/CucumberReports.html","json:target/cucumber.json",

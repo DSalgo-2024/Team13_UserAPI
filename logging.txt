@@ -1,0 +1,50 @@
+Request method:	POST
+Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/createusers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userAddress": {
+        "plotNumber": "uf-9",
+        "street": "Costiganroad",
+        "state": "TN",
+        "country": "USA",
+        "zipCode": "62345"
+    },
+    "user_first_name": "TestData",
+    "user_last_name": "positive",
+    "user_contact_number": "9900113410",
+    "user_email_id": "saikan102@gmail.com"
+}
+HTTP/1.1 401 
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716490757&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=ktGO97iN%2FAxXqfO5E6q0GiAd4tlaF7P9aEBbky3nF8s%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716490757&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=ktGO97iN%2FAxXqfO5E6q0GiAd4tlaF7P9aEBbky3nF8s%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+Www-Authenticate: Basic realm="Realm"
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 23 May 2024 18:59:17 GMT
+Via: 1.1 vegur
+
+{
+    "timestamp": "2024-05-23T18:59:17.887+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/uap/createusers"
+}
